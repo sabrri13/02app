@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sabrinapertusatti.a02app.ActivityPrincipal"
+    android:background="@android:color/background_light">
+
+    <Button
+        android:id="@+id/btnNa"
+        android:background="@drawable/c"
+        android:layout_below="@+id/btnLi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/btnLi"
+        android:layout_alignEnd="@+id/btnLi"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnK"
+        android:background="@drawable/d"
+        android:layout_below="@+id/btnNa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/btnNa"
+        android:layout_alignEnd="@+id/btnNa"
+        android:layout_marginBottom="5dp" />
+
+
+    <Button
+        android:id="@+id/btnH"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/a"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_height="60dp"
+        android:id="@+id/btnLi"
+        android:background="@drawable/b"
+        android:layout_below="@+id/btnH"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="60dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnFr"
+        android:background="@drawable/g"
+        android:layout_below="@+id/btnCs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnCs"
+        android:background="@drawable/f"
+        android:layout_below="@+id/btnRb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnRb"
+        android:background="@drawable/e"
+        android:layout_below="@+id/btnK"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnBa"
+        android:background="@drawable/l"
+        android:layout_alignLeft="@+id/btnSr"
+        android:layout_alignStart="@+id/btnSr"
+        android:layout_marginBottom="5dp"
+        android:layout_alignTop="@+id/btnCs" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSr"
+        android:background="@drawable/k"
+        android:layout_below="@+id/btnK"
+        android:layout_alignLeft="@+id/btnCa"
+        android:layout_alignStart="@+id/btnCa"
+        android:layout_alignBottom="@+id/btnRb" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnRa"
+        android:background="@drawable/m"
+        android:layout_alignLeft="@+id/btnBa"
+        android:layout_alignStart="@+id/btnBa"
+        android:layout_alignBottom="@+id/btnFr" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnBe"
+        android:background="@drawable/h"
+        android:layout_above="@+id/btnMg"
+        android:layout_toRightOf="@+id/btnCs"
+        android:layout_toEndOf="@+id/btnCs"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnCa"
+        android:background="@drawable/j"
+        android:layout_alignLeft="@+id/btnMg"
+        android:layout_alignStart="@+id/btnMg"
+        android:layout_alignBottom="@+id/btnK" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnMg"
+        android:background="@drawable/i"
+        android:layout_alignLeft="@+id/btnBe"
+        android:layout_alignStart="@+id/btnBe"
+        android:layout_above="@+id/btnK" />
+
+    <TextView
+        android:text="Haz clic en la huella para jugar!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="180dp" />
+
+    <TextView
+        android:text="Ponte a prueba!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/btnBe"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="normal|bold"
+        android:background="@drawable/huella"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/btnCa"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:text="Selecciona un elemento para ver sus caracteristicas o..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:elevation="0dp"
+        android:layout_alignTop="@+id/btnH"
+        android:layout_toRightOf="@+id/btnH"
+        android:layout_toEndOf="@+id/btnH"
+        android:layout_marginLeft="15dp" />
+</RelativeLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/segona_activityl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sabrinapertusatti.a02app.segona_activity">
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblval0"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorGrenf"
+            android:textStyle="normal|bold"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Nombre, símbolo, número: "
+                android:layout_height="wrap_content"
+                android:id="@+id/textVie1"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval1"
+                android:layout_weight="2.80"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="170dp" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Serie química"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="0.67"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval2"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="170dp" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Grupo, período, bloque"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_weight="0.67"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval3"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Masa atómica"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="0.67"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval4"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Configuración electrónica:"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_weight="0.67"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval5"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Electrones"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_weight="0.67"
+                android:layout_width="170dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblval6"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center">
+
+        <Button
+            android:text="Wikipedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnWiki"
+            android:autoLink="web"
+            android:layout_marginTop="50dp" />
+    </TableRow>
+
+</TableLayout>
